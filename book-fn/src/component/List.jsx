@@ -19,7 +19,7 @@ const List = () => {
                     <th>Price</th>
                     <th>Date</th>
                     <th>Category</th>
-                    <th colSpan={2}>Action</th>
+                    <th colSpan={3}>Action</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -33,6 +33,7 @@ const List = () => {
                             <button onClick={() => deleteBook(book.id)}>Delete</button>
                         </td>
                         <td><button><Link to={`/update/${book.id}`}>Update</Link></button></td>
+                        <td><button><Link to={`/views/${book.id}`}>Views</Link></button></td>
                     </tr>
                 ))}
                 </tbody>

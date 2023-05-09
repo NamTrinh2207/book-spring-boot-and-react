@@ -1,11 +1,10 @@
-import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import List from "./component/List";
 import Nav from "./component/Nav";
 import CreateForm from "./component/CreateForm";
 import UpdateForm from "./component/UpdateForm";
 import ViewsDetail from "./component/ViewsDetail";
-
+import "./App.css"
 function App() {
     return (
         <BrowserRouter>

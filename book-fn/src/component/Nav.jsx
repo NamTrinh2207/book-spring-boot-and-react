@@ -3,16 +3,18 @@ import {Link} from "react-router-dom";
 
 function Navigation() {
     return (
-        <nav>
-            <ul>
-                <li>
+        <table>
+            <tbody>
+            <tr>
+                <th>
                     <Link to="/">Home</Link>
-                </li>
-                <li>
+                </th>
+                <th>
                     <Link to="/create">Create Form</Link>
-                </li>
-            </ul>
-        </nav>
+                </th>
+            </tr>
+            </tbody>
+        </table>
     );
 }
 export default Navigation;
